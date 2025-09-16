@@ -223,5 +223,3 @@ updateExchangeRate();
 window.addEventListener('load', () => {
 updateExchangeRate();
 });
-
-
