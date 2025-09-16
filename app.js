@@ -172,9 +172,7 @@ const countryList = {
   ZWD: "ZW",
 };
 
-
-
-       for (let select of dropdowns) {
+for (let select of dropdowns) {
 for (let code in countryList) {
      console.log(code, countryList[code]);
      let newOption = document.createElement("option");
