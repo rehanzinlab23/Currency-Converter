@@ -82,3 +82,25 @@ form button {
      font-size: 1.15rem;
      cursor: pointer;
 }
+
+/* Responsive */
+
+@media (max-width: 289px) {
+     .container {
+          padding: 1rem;
+     }
+}
+
+@media (max-width: 294px) {
+     .dropdown {
+          flex-direction: column;
+     }
+
+     .msg {
+          text-align: center;
+     }
+
+     .para {
+          margin-bottom: 12px;
+     }
+}
